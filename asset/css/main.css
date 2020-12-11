@@ -1,0 +1,608 @@
+body{
+    font-size: 14px; 
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/**********************************
+
+***            Font
+
+**********************************/
+
+
+/**********************************
+
+***   Global Class 
+
+**********************************/
+/* 
+
+.heading h1{
+    
+font-size: 36px;
+    
+font-weight: 600;
+    
+font-family: HelveticaNeueBold, Arial, sans-serif;
+    
+color: #424242;
+}
+.heading p{
+    
+font-size: 20px;
+    
+font-family: HelveticaNeueBold, Arial, sans-serif;
+    
+font-weight: 300;
+    
+line-height: 14px;
+    
+color: #424242;
+}
+.heading span{
+    
+width: 50px;
+    
+height: 5px;
+    
+background: #424242;
+    
+display: inline-block;
+}
+
+
+.btn-custom{
+
+padding: 15px 30px;
+
+font-size: 25px;
+
+background: #f8cd53;
+
+color: #fff;
+
+font-family: HelveticaNeueBold, Arial, sans-serif;
+
+font-weight: 600;
+
+border-radius: 5px;
+}
+
+.btn-custom:hover{
+
+    color:#de2b24;
+   
+} */
+
+
+
+/**********************************
+
+***      header section      ***
+
+**********************************/
+
+/**********************************
+
+***      navigation section      ***
+
+**********************************/
+
+/* .navigation-section{
+    padding:38px 0px;
+    overflow: hidden;
+}
+.navbar{
+    padding: 0rem;
+    z-index: 1000;
+
+}
+
+
+.navbar-nav .nav-item .nav-link{
+    color: #424242;
+    font-size: 15px;
+    font-family: HelveticaNeueBold, Arial, sans-serif;
+    font-weight: 700;
+    padding: 10px 18px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #de2b24;
+}
+.navbar-nav .nav-item{
+    position: relative;
+}
+.navbar-nav .nav-item:after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    background: #424242;
+    top: 50%;
+    left: 100%;
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-item:last-child:after{
+    content: "";
+    position: absolute;
+    height: 0px;
+    width: 0px;
+   
+}
+
+.navbar-nav .nav-item:last-child .nav-link{
+    color: #fff;
+    background: #de2b24;
+    border-radius: 5px;
+    padding: 10px 20px;
+} */
+
+
+/**********************************
+
+***      Banner section      ***
+
+**********************************/
+.banner-section{
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-hover{
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    z-index: 3;
+    background-color: #0e8b94;
+    /* background-color: #115458; */
+    background-blend-mode: multiply;
+}
+.vh{
+    min-height: 100vh;
+}
+
+.banner-section h1 {
+    /* color: #fff; */
+    font-size: 48px;
+    text-transform: uppercase;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    /* border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px; */
+}
+
+.banner-section p {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* .banner-section{
+
+    background: url('../images/banner.jpg');
+    z-index: 1;
+    background-size: cover;
+    overflow: hidden;
+}
+.banner-content h1{
+    font-size: 48px;
+    font-family: HelveticaNeueBold, Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.banner-content p{
+    font-weight: 100;
+    font-size: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 35px;
+    font-family: HelveticaNeueThin, Arial, sans-serif;
+}
+
+.vh{
+    min-height: 100vh;
+} */
+
+/**********************************
+
+***      about-section        ***
+
+**********************************/
+
+/* 
+.about-section{
+
+padding: 100px 0px;
+overflow: hidden;
+}
+
+.about h2{
+
+margin: 20px 0px;
+
+color: #424242;
+
+font-weight: 500;
+
+font-size: 22px;
+}
+.about p{
+
+font-size: 14px;
+
+margin-bottom: 0px;
+}
+.about{
+
+padding: 50px 25px 0px 25px;
+}
+
+ */
+
+
+/**********************************
+
+***      approch-section        ***
+
+**********************************/
+
+/* 
+.approch-section{
+    background: #f3f3f3;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+
+.approch-heading p{
+    font-weight: 100;
+}
+
+
+.approch{
+    
+background: #fff;
+    
+border-radius: 5px;
+    
+padding: 0px;
+    
+box-shadow: 0 0 10px #c4c4c4;
+    
+margin-top: 40px;
+}
+
+.approch img:hover{
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+.approch-img{
+    
+position: relative;
+}
+
+.step{
+
+position: absolute;
+width: 100px;
+background: #DD2A24;
+color: #fff;
+text-align: center;
+padding: 18px 0px;
+border-radius: 5px;
+border: 3px solid #fff;
+top: 50%;
+right: -50px;
+transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+-moz-transform: translateY(-50%);
+}
+.left{
+    left: -50px;
+}
+.step strong{
+font-size: 40px;
+font-weight: 800;
+display: block;
+line-height: 1;
+}
+.approch-content h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.approch-content p{
+    font-size: 14px;
+    margin-bottom: 0px;
+    text-align: justify;
+} */
+
+
+
+
+
+
+
+/**********************************
+
+***         work section        ***
+
+**********************************/
+
+/* .work-heading{
+    padding-bottom: 30px;
+}
+.work-section{
+    background: #DE2B24;
+    padding: 100px 0px;
+    
+    overflow: hidden;
+    
+}
+
+.work-heading h1{
+    color:#fff;
+}
+
+
+.work-heading p{
+    color:#fff;
+}
+
+
+.work-heading span{
+    background:#fff;
+}
+
+.work{
+    position: relative;
+}
+
+.work a:before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background:#F35E59;
+    opacity: 0;
+
+}
+
+.work a:hover::before{
+    opacity: .6;
+}
+
+.work a:after{
+    content: "Project-Demo Facebook-Marketing";
+    position: absolute;
+    height: 20%;
+    width: 80%;
+    color:#fff;
+    opacity: 0;
+    z-index: 10000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+-webkit-transform: translate(-50%,-50%);
+-moz-transform: translate(-50%,-50%);
+    font-size: 20px;
+    transition: all .4;
+    text-align: center;
+    align-content: center;
+    font-size: 20px;
+    padding: 0px 10px;
+    transition: all 0.6s ease-in;
+    
+    transition: all 0.6s ease-in;
+    -webkit-transition: all 0.6s ease-in;
+    -moz-transition: all 0.6s ease-in; 
+
+       
+}
+.work a:hover::after{
+    opacity: 1;
+}
+ */
+
+
+
+
+
+
+/**********************************
+
+***        analysis section      ***
+
+**********************************/
+
+/* 
+.analysis-secion{
+    padding: 100px 0px;
+    background: #1287BF;
+    
+    overflow: hidden;
+}
+
+.analysis-heading h1{
+    color: #fff;
+}
+.analysis-heading p{
+    color: #fff;
+    padding-bottom: 10px;
+}
+.analysis-heading a{
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #fff;
+    display: inline-block;
+    line-height: 50px;
+    border-radius: 100px;
+    font-size: 25px;
+}
+
+form:after{
+    content: "";
+    position: absolute;
+    border-left: 50px solid #0000;
+    border-right: 50px solid #0000;
+    border-bottom: 50px solid #fff;
+    top: -8%;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+-moz-transform: translate(-50%);
+
+}
+
+.submit{
+    position: relative;
+}
+
+.cross-sign{
+    position: relative;
+}
+
+.cross-sign a{
+    position: absolute;
+    display: block;
+    color: #f3f3f3;
+    font-size: 20px;
+    border: 2px solid white;
+    height: 40px;
+    width: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50px;
+    background: #DE2B24;
+    top: 25px;
+    right: 27px;
+    text-decoration: none;
+}
+
+.form-btn{
+    background: #DE2B24;
+    color: #fff;
+    font-family: HelveticaNeueBold, Arial, sans-serif;
+    font-weight: 600;
+    margin-top: 15px;
+    padding: 10px 30px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.form-btn:hover{
+    background: rgb(177, 28, 23);
+
+ 
+}
+.analysis-secion .form-control{
+    box-shadow: 0 0 0 0;
+    transition: none;
+
+}
+ */
+
+/**********************************
+
+***      footer section       ***
+
+**********************************/
+
+
+/* .footer-section{
+    padding-top: 100px;
+    background: #2A2A2A;
+    
+    overflow: hidden;
+}
+
+.top-footer h6{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: HelveticaNeueBold, Arial, sans-serif;
+    margin-bottom: 0px;
+}
+.top-footer p{
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.top-footer .nav-link{
+    color: #fff;
+    border: 1px solid #515151;
+    margin: 30px 10px;
+}
+.top-footer .nav-link:hover{
+    border: 1px solid #de2b24;
+}
+
+.top-footer .form-btn:hover{
+    background:#de2b24;
+}
+
+.top-footer .form-btn{
+    background: #2A2A2A;
+    color: #fff;
+    font-family: HelveticaNeueBold, Arial, sans-serif;
+    font-weight: 600;
+    margin-top: 15px;
+    padding: 10px 30px;
+    display: inline-block;
+    border: 1px solid #515151;
+    text-transform: capitalize;
+}
+.top-footer .form-control{
+    color: #fff;
+    background: #515151;
+    border-radius: 0rem;
+    border: 1px solid #ced4da00;
+    transition: none;
+    box-shadow: 0 0 0 0;
+}
+
+
+
+
+.bottom-footer{
+    background: #515151;
+    margin-bottom: 0px;
+}
+.bottom-footer p{
+    
+color: #b2b2b2;
+    
+padding: 20px 0px;
+    
+margin-bottom: 0px;
+}
+.bottom-footer-section{
+   background: #515151;
+   margin-top: 64px;
+}
+ */
+
+
+/**********************************
+
+***         Extra Design        ***
+
+**********************************/
+
+
+/* 
+.top-footer input::placeholder {
+    color: #b2b2b2;
+}
+button:focus {
+    box-shadow: 0 0px 0px 1px #de2b24;
+    outline: 0px auto #de2b24;
+}
+ */
+

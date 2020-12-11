@@ -1,0 +1,228 @@
+@media(max-width: 991px){
+
+    .navbar-light .navbar-toggler {
+        border-color: #DD2A24;
+    }
+
+    .navbar-nav .nav-item:after {
+        content: "";
+        position: absolute;
+        height: 0px;
+        width: 0px;
+    }
+
+    .navbar-nav .nav-item:last-child .nav-link {
+        display: inline-block;
+    }
+
+    .btn-custom {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
+    .vh{
+        min-height: 75vh;
+    }
+
+    .about {
+        padding: 50px 0px 0px 0px;
+    }
+    .about h2 {
+
+        font-size: 20px;
+    }
+
+
+
+
+}
+
+
+
+
+
+@media(max-width: 767px){
+
+    .top-address{
+        justify-content: center;
+    }
+    
+.banner-content h1 {
+    font-size: 38px;
+
+}
+.banner-content p {
+    font-size: 18px;
+}
+
+.btn-custom {
+    padding: 8px 15px;
+    font-size: 15px;
+}
+
+.vh{
+    min-height: 60vh;
+}
+
+.about {
+    padding: 50px 0px 0px 0px;
+}
+.about h2 {
+    font-size: 20px;
+}
+
+.approch-content {
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+}
+
+
+.step strong {
+    font-size: 20px;
+}
+.approch-content {
+    margin: 50px 30px 30px 30px
+}
+.step {
+    position: absolute;
+    width: 70px;
+    background: #DD2A24;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: 3px solid #fff;
+    bottom: -8%;
+    left: 20px;
+    top: auto;
+    transform: translateY(20%);
+    -webkit-transform: translateY(20%);
+}
+
+.or-0 {
+    -ms-flex-order: 0;
+    order: 0;
+}
+  
+.or-1 {
+    -ms-flex-order: 1;
+    order: 1;
+}
+
+.heading h1{
+    font-size: 25px;
+}
+.heading p {
+    font-size: 16px;
+}
+
+.analysis-secion form {
+    padding: 0rem !important;
+}
+.submit {
+    padding: 1rem !important;
+}
+.about p{
+    padding: 0px 50px !important;
+}
+
+}
+
+
+
+
+
+
+
+
+@media(max-width: 575px){
+     
+    .top-address li i {
+        font-size: 14px;
+    }
+    .top-address li:first-child {
+        line-height: 30px;
+        padding-top: 0px;
+    }
+    .top-address li {
+        padding: 0px 10px;
+    }
+    .top-footer .nav-link {
+        color: #fff;
+        border: 1px solid #515151;
+        margin: 10px 5px;
+    }
+
+    .navbar-brand{
+        margin-right: 0rem;
+        display: table;
+    }
+    .navbar-nav .nav-item .nav-link {
+
+        padding: 10px 5px;
+    }
+
+    .navbar-nav .nav-item:last-child .nav-link {
+        padding: 10px 5px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        color: #424242;
+        font-size: 12px;
+    }
+
+    .about p{
+        padding: 0px 10px !important;
+    }
+
+    .submit p{
+        font-size: 12px;
+        
+    }
+   
+}
+
+@media(max-width: 420px){
+
+    .top-address li i {
+        font-size: 14px;
+    }
+    .top-address li:first-child {
+        line-height: 30px;
+        padding-top: 0px;
+    }
+    .top-address li {
+        padding: 0px 10px;
+    }
+    .top-footer .nav-link {
+        color: #fff;
+        border: 1px solid #515151;
+        margin: 10px 5px;
+    }
+
+    .navbar-brand img{
+        width: 80%;
+
+    }
+    
+    .approch-content {
+        margin: 50px 5px 30px 5px;
+    }
+
+    .top-footer .nav {
+        padding: 0px 50px;
+    }
+    .bottom-footer span{
+        display: block;
+    }
+
+    .approch-heading p {
+        padding: 0px 60px;
+        line-height: 1;
+    }
+    .work a:after {
+        content: "Project-Demo Facebook-Marketing";
+        position: absolute;
+        width: 60%;
+    }
+
+}
