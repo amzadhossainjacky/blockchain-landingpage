@@ -1,6 +1,5 @@
 body{
     font-size: 14px; 
-    overflow: hidden;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -18,6 +17,21 @@ body{
 ***   Global Class 
 
 **********************************/
+
+.global-title h1{
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 100px;
+    color: #3f3d56;
+    background: -webkit-linear-gradient(rgb(233, 106, 106), #3f3d56);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 /* 
 
 .heading h1{
@@ -153,6 +167,7 @@ border-radius: 5px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 .banner-hover{
     background-size: cover;
@@ -210,9 +225,38 @@ border-radius: 5px;
 
 /**********************************
 
-***      about-section        ***
+***  project_details-section    ***
 
 **********************************/
+.project_details-section{
+padding: 100px 0px;
+background-color: #0e8b8b;
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+overflow: hidden;
+
+}
+.project-card {
+    text-align: justify;
+}
+.project-card img{
+    width: 100% !important;
+    padding: 30px;
+}
+.project-card .content h2{
+    font-size: 28px;
+    text-align: start;
+    margin-bottom: 15px;
+    color: #3f3d56;
+    background: -webkit-linear-gradient(rgb(233, 106, 106), #3f3d56);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.project-card .content p{
+    color: #3f3d56;
+}
+
+
 
 /* 
 .about-section{
@@ -247,9 +291,18 @@ padding: 50px 25px 0px 25px;
 
 /**********************************
 
-***      approch-section        ***
+*** general_component-section   ***
 
 **********************************/
+.general_component-section{
+padding: 100px 0px;
+background-color: #0e8b8b;
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+overflow: hidden;
+}
+
+
+
 
 /* 
 .approch-section{
